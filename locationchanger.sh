@@ -18,7 +18,7 @@ exec 2>&1 >> $HOME/Library/Logs/LocationChanger.log
 sleep 3
 
 ts() {
-    date +"[%Y-%m-%d %H:%M] $*"
+    date +"[%Y-%m-%d %H:%M:%S:%3N] $*"
 }
 
 ID=`whoami`
