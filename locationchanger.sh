@@ -77,6 +77,8 @@ if [ "$NEW_LOCATION" != "" ]; then
         ts "Already at '$NEW_LOCATION'"
     fi
 fi
+
+echo ""
 EOT
 
 sudo chmod +x $SCRIPT_NAME
