@@ -57,7 +57,7 @@ if echo "$LOCATION_NAMES" | grep -q "^$ESSID$"; then
 else
     if echo "$LOCATION_NAMES" | grep -q "^Automatic$"; then
         NEW_LOCATION=Automatic
-        ts "Location '$SSID' was not found. Will default to 'Automatic'"
+        ts "Location '$SSID' was not found. Set to 'Automatic' by default."
     else
         ts "Location '$SSID' was not found. The following locations are available: $LOCATION_NAMES"
         exit 1
